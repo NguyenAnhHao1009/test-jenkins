@@ -1,0 +1,1 @@
+docker run --name pg-quarkus -e POSTGRES_DB=quarkus_db -e POSTGRES_USER=quarkus -e POSTGRES_PASSWORD=quarkus -p 5432:5432 -d postgres:15
